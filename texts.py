@@ -1,0 +1,12 @@
+t = ['SQLAthanor: Serialization / Deserialization for SQLAlchemy ORM And now for something completely different',
+     'Framework to do an application a schedule for a University',
+     'A nice collection of often useful awesome Python frameworks and libraries',
+     'How to use PyDrive to upload files to Google Drive through python', 'Ranking News Bias with Python',
+     'I`ve made a clock using pyglet, but I want to change the window bg color every second.Why is the code I’ve used make the bg flicker and not go from white to black all the way',
+     'Sending and pulling live data from server.Dreams In Text - Text Based Adventure',
+     'I developed a package which will notify your github activity and it is working on mac windows and linux platform.',
+     'Getting the active(foreground) window title on windows 10 using python',
+     'Chameleon:An HTML / XML template engine for Python',
+     'SubstanceDesigner now allows you to script its behavior using Python', 'Fuction and Home key in pyautogui',
+     'How to install win32 on Windows 10', 'Python has brought computer programming to a vast new audience',
+     'Exceptive: A Library Making Exception Handling More Programmatic and Debuggable']
