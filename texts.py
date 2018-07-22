@@ -26,3 +26,16 @@ rut = [
     ' конкурс среди команд будущих, возможно уже действующих разработчиков из 2-3 человек, а также всех желающих реализующих СВОЮ идею. Цель хакатона — создание рабочего приложения или прототипа в рамках темы, определенной несколькими критериями. Тематика данного хакатона — «Кампус будущего», а детальные критерии будут объявлены непосредственно на хакатоне, чтобы никто не мог подготовиться к конкурсу заранее, и все команды находились в равных стартовых условиях.',
     'CoE, по сути, влияет на стратегическое развитие компании. Такие «центры» — это не просто R&D, это R&D + бизнес. Ваша наработанная (или нарабатываемая) экспертиза систематизирована, у вас есть команда сейлов, которая работает в тесной связи с R&D для того, чтобы предлагать потенциальному клиенту уникальную экспертизу активнее, а не просто ждать запроса от потенциального клиента и думать, чем занять скучающих на бенче сотрудников. Более того, благодаря СоЕ у компании появляется возможность охватить даже тех клиентов, которые даже не думали о каких- либо новых проектах.'
 ]
+
+pews = ['SQLAthanor: Serialization / Deserialization for SQLAlchemy ORM And now for something completely different',
+ 'Framework to do an application a schedule for a University',
+ 'A nice collection of often useful awesome Python frameworks and libraries',
+ 'How to use PyDrive to upload files to Google Drive through python', 'Ranking News Bias with Python',
+ 'I`ve made a clock using pyglet, but I want to change the window bg color every second.Why is the code I’ve used make the bg flicker and not go from white to black all the way',
+ 'Sending and pulling live data from server.Dreams In Text - Text Based Adventure',
+ 'I developed a package which will notify your github activity and it is working on mac windows and linux platform.',
+ 'Getting the active(foreground) window title on windows 10 using python',
+ 'Chameleon:An HTML / XML template engine for Python',
+ 'SubstanceDesigner now allows you to script its behavior using Python', 'Fuction and Home key in pyautogui',
+ 'How to install win32 on Windows 10', 'Python has brought computer programming to a vast new audience',
+ 'Exceptive: A Library Making Exception Handling More Programmatic and Debuggable']
