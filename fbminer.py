@@ -21,4 +21,5 @@ for event in rez:
 
 db.dump()
 
+db = pickledb.load('fbevents.db', False)
 print(len(db.getall()))
