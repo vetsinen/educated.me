@@ -1,5 +1,6 @@
-urllib
 feedparser
 html2text
 nltk
 sklearn
+facebook-sdk
+pickledb
