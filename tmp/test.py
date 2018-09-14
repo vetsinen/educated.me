@@ -2,6 +2,9 @@ import pickledb
 db = pickledb.load('dated-events.db', False)
 print(len(db.getall()))
 
+for date in db.getall():
+    print(len(db.get(date)))
+
 # i=0
 # for evid in db.getall():
 #     print(db.get(evid)['description'])

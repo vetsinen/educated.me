@@ -1,3 +1,4 @@
 .idea/
 fbevents.db
 dated-events.db
+__pycache__/
