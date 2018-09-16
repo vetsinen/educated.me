@@ -13,6 +13,7 @@ db = pickledb.load('dated-events.db', False)
 import datetime
 nowstr = str(datetime.datetime.now())[:10]
 
+
 @app.route('/')
 def status():
     # return render_template('index.html')
