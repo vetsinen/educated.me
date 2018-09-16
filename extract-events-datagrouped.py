@@ -1,6 +1,6 @@
 import facebook
-token = "EAAJso34oskUBABKMARfHCVpnI8FolDm9ViKOuF7w8tn5ZC4c0kjTfh5e8GBNwlEv5hLGODsMy60uagQdi9ZCwPMwfJYdCSkSPEEZCF5sxvyOZBdEWE19stM3ZC1eLZBkRVCFJpTAO5UpOOrk8cxS13tA9ZBy8dIlpZBAAR4dYCyX2gKtOKumCzyiQCarkEevVkURZA6OoH7rPjAZDZD"
-userid = "162568371295069"
+token = "EAAeZATMPe23sBAGLuC9hgWdYsTTrt23hL8CmLsZA3YJ2hje4FShZAilMZCokRX8plaoxC4Y5uw41RZAwei0YSp6ndYSjFW0Q8CZCbJu7YvLmsLoZA0n9gARHz4k0E47QSjfaTYVRHFB5Ii6RZBd8QsXLarujEtBrnl3dkYcZBF0mGwTT5M7C3CDJZCEIUGtStSRFqtnN0JsVXzWwZDZD"
+userid = "166974190854487"
 graph = facebook.GraphAPI(access_token=token, version="2.12")
 rez = graph.get_all_connections(id=userid, connection_name='events')
 
