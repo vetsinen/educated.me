@@ -1,19 +1,18 @@
 import facebook
-token = "EAAJso34oskUBALjfNiudGDQnus2TitLGlFtiSZCPgzKEaZC5qpvq5JWN4mzdtRrECjHcr54MjOaZCTg3Ar1hl16cbIHdh12g5LpTvm7kFgJvP6UnDMdUeFaU2TjCBtQwPGaZAzIOODg8ZC7wMT5q3fDbE2Ifs5Ex17pTMNzDgdM5o2cCZCCIVDTzHeZCMTOti85Y6Ye9BTu3QZDZD"
-userid = "162568371295069"
+token = "EAAeZATMPe23sBACuwoo2SDIKazXwRQAllcRDCrzpe9xGAQ753EEWEYE2V878OVekqj0Y7sLZC0DBwqKypTwKUq8aCZCAVWrsmlspLeRVCCH2ynZA6aAT0TRRmZB1yENy8NZCmFS2WF7xkCMx71ZAZBAPSCZCvp2XxurhifnFL4aPLHhZAr1B2nurmXloJNpzAsFe4jZBBy1iyPt9wZDZD"
+userid =  "166974190854487"#sl "10155705847047361"#vm
 graph = facebook.GraphAPI(access_token=token, version="2.12")
 rez = graph.get_all_connections(id=userid, connection_name='events')
+from mstore import events
 
 # https://github.com/patx/pickledb
-import pickledb
-db = pickledb.load('fbevents.db', False)
 l=0
 for event in rez:
-    db.set(event["id"],event)
     l=l+1
+    event['_id']=event["id"]
+    events.insert(event)
 
-db.dump()
-print(l)
+print('inserted: '+str(l))
 
-db = pickledb.load('fbevents.db', False)
-print(len(db.getall()))
+# db = pickledb.load('fbevents.db', False)
+# print(len(db.getall()))

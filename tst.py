@@ -1,9 +1,18 @@
-import pickledb
-db = pickledb.load('dated-events.db', False)
-print(len(db.getall()))
+from mstore import events
+from pprint import pprint
 
-for date in db.getall():
-    print(len(db.get(date)))
+
+events.insert( {"_id":"435475535325235235", "name": "John", "address": "Highway 37" })
+
+for x in events.find():
+    pprint(x)
+
+# import pickledb
+# db = pickledb.load('dated-events.db', False)
+# print(len(db.getall()))
+#
+# for date in db.getall():
+#     print(len(db.get(date)))
 
 # i=0
 # for evid in db.getall():
