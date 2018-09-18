@@ -2,10 +2,11 @@ from mstore import events
 from pprint import pprint
 
 
-events.insert( {"_id":"435475535325235235", "name": "John", "address": "Highway 37" })
-
-for x in events.find():
+for x in events.find({'datestr':'2018-09-18'}):
     pprint(x)
+
+
+#events.create_index({'start_time':1})
 
 # import pickledb
 # db = pickledb.load('dated-events.db', False)

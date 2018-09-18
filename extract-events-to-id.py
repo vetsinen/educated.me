@@ -10,7 +10,9 @@ l=0
 for event in rez:
     l=l+1
     event['_id']=event["id"]
-    events.insert(event)
+    event['datestr']=event['start_time'][:10]
+    event['timestr']=event['start_time'][11:16]
+    events.insert(event) #or upsert
 
 print('inserted: '+str(l))
 
