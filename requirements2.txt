@@ -1,0 +1,8 @@
+feedparser
+html2text
+langdetect
+nltk
+sklearn
+facebook-sdk
+numpy
+scipy

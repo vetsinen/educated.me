@@ -1,9 +1,1 @@
-feedparser
-html2text
-langdetect
-nltk
-sklearn
-facebook-sdk
-pickledb
-numpy
-scipy
+flask
