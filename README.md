@@ -12,5 +12,5 @@ special packages installation
 >>> import nltk
 >>> nltk.download('punkt')
 
--TODO: add event translation to different languages
--TODO: event filtration according to user profile
+- TODO: add event translation to different languages
+- TODO: event filtration according to user profile
